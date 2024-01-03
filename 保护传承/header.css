@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background: url(../主界面/images/背景图.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+li {
+    list-style: none;
+}
+.header {
+    width: 1380px;
+    height: 50px;
+    margin: auto;
+    background:white;
+    opacity: 0.8;
+    /* background-color: aquamarine; */
+}
+.logo {
+    float: left;
+    width: 350px;
+    height: 50px;
+    padding:0;
+    /* background-color: bisque; */
+}
+.logo h1 {
+    font-size: 0;
+}
+/* .log img {
+    padding-bottom: 12px;
+    vertical-align: middle;
+} */
+.nav {
+    float: left;
+    width: 580px;
+    height: 50px;
+    /* background-color: cadetblue; */
+}
+
+.nav li {
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li a:hover {
+    color: dodgerblue;
+    border-bottom: 2px solid #175a4b;
+}
+.search {
+    float: left;
+    width: 260px;
+    height: 28px;
+    margin-top: 12px;
+    /* background-color: #175a4b; */
+}
+.search input {
+    width: 260px;
+    line-height: 28px;
+    border: 1px solid #818ed3;
+    /* background-color: #175a4b; */
+}
+.search input::placeholder {
+    font-size: 14px;
+    color: rgb(23, 67, 96);
+}
+.load {
+    float:right;
+    width: 100px;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    margin-top: 20px;
+    margin-right: 20px;
+    /* background-color: darkgrey; */
+}
+.load a:hover {
+    color: rgb(30, 85, 140);
+    border-bottom: 2px solid #175a4b;
+}
