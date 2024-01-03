@@ -1,0 +1,67 @@
+
+
+.include,
+.content,
+.banner,
+.exhibits,
+.foot {
+    background-color: rgb(250,250,250,0.7);
+}
+.box {
+    height: 450px;
+    text-align: center;
+}
+.box img {
+    vertical-align: middle;
+}
+
+.suojin {
+    text-indent: 2em;
+}
+
+.right img{
+    max-width: 100%;
+    height: auto;
+}
+.banner {
+    width: 1280px;
+    height: 2500px;
+    margin: auto;
+}
+.banner .left {
+    float: left;
+    width: 640px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 50px;
+}
+
+
+.banner .right {
+    float: right;
+    width: 640px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 190px;
+}
+
+.right li{
+    float: left;
+    width: 200px;
+    margin-right: 4px;
+    
+}
+.right li:first-child {
+    margin-left: 20px;
+}
+.right li img {
+    width: 200px;
+    height: 200px;
+    transition: all .4s;
+}
+/* 鼠标悬停在图片上时将图片放大1.5倍 */
+.right img:hover {
+   transform: scale(1.5);
+}
+
