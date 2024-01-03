@@ -1,0 +1,133 @@
+.include,
+.content,
+.banner,
+.exhibits,
+.foot {
+    background-color: rgb(250,250,250,0.7);
+}
+.box {
+    height: 430px;
+    text-align: center;
+}
+.include {
+   
+    width: 1280px;
+    height: 30px;
+    margin: auto;
+}
+.include li {
+    float: left;
+    margin-right: 100px;
+    line-height: 30px;
+}
+.content {
+    width: 1280px;
+    height: 640px;
+    margin: auto;
+}
+.content .left {
+    float: left;
+    width: 640px;
+    height: 640px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+}
+.suojin {
+    text-indent: 2em;
+}
+.content .right {
+    float: left;
+    width: 640px;
+    height: 640px;
+}
+.right img{
+    max-width: 100%;
+    height: auto;
+}
+.banner {
+    width: 1280px;
+    height: 1345px;
+    margin: auto;
+}
+.banner .left {
+    float: left;
+    width: 640px;
+    height: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+}
+.banner.left.up {
+    width: 670px;
+    height: 700px;
+    background-color: #175a4b;
+}
+.banner .left img {
+    width: 610px; 
+    height: 600px;
+}
+.banner.left.down {
+    width: 670px;
+    height: 800px;
+    background-color: #424746;
+}
+.down video {
+    width: 610px;
+    height: 350px;
+}
+.banner .right {
+    float: right;
+    width: 640px;
+    height: 1300px;
+    padding-top: 50px;
+}
+.picture {
+    margin: 1px;
+    height: 200px;
+}
+.picture li {
+    float: left;
+    width:200px;
+    margin-right: 10px;
+}.picture li img {
+    width: 200px; 
+    height: 200px;
+}
+.picture .time {
+    padding-left: 30px;
+    line-height: 200px;
+}
+.exhibits {
+    width: 1280px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+    padding-left: 15px;
+}
+.exhibits li{
+    float: left;
+    width: 200px;
+    margin-right: 4px;
+    
+}
+.exhibits li:first-child {
+    margin-left: 20px;
+}
+.exhibits li img {
+    width: 200px;
+    height: 200px;
+    transition: all .4s;
+}
+/* 鼠标悬停在图片上时将图片放大1.5倍 */
+.exhibits img:hover {
+   transform: scale(1.5);
+}
+.foot {
+    width: 1280px;
+    font-size: 18px;
+    margin:auto
+}
+.foot a:hover {
+    color: dodgerblue;
+}
