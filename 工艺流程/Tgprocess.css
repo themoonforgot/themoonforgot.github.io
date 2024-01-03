@@ -1,0 +1,108 @@
+
+/* 半透明盒子 */
+
+.include,
+.content,
+.banner,
+.exhibits,
+.foot {
+    background-color: rgb(250,250,250,0.7);
+}
+.box {
+    height: 730px;
+    text-align: center;
+}
+.box img {
+    vertical-align: middle;
+}
+.suojin {
+    text-indent: 2em;
+}
+
+.banner {
+    width: 1280px;
+    height: 3900px;
+    margin: auto;
+}
+.banner .left {
+    float: left;
+    width: 640px;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+}
+.left img {
+    width: 519px;
+    height: 460px;
+}
+
+.banner .left_content {
+    float: left;
+    width: 640px;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 200px;
+    padding-top: 300px;
+}
+.banner .right_picture {
+    float: right;
+    width: 640px;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 130px;
+}
+.right_picture img {
+    width: 519px;
+    height: 460px;
+    
+}
+.right_picture audio {
+     width: 519px;
+    height: 460px;
+}
+.banner .right {
+    float: right;
+    width: 640px;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 200px;
+    padding-top: 300px;
+}
+
+.right li{
+    float: left;
+    width: 200px;
+    margin-right: 4px;
+    
+}
+.right li:first-child {
+    margin-left: 20px;
+}
+.right li img {
+    width: 200px;
+    height: 200px;
+    transition: all .4s;
+}
+/* 鼠标悬停在图片上时将图片放大1.5倍 */
+.right img:hover {
+   transform: scale(1.5);
+}
+.ti {
+    text-align: center;
+}
+.banner .blast {
+    padding-left: 15px;
+    padding-right: 200px;
+    padding-top: 300px;
+}
+.banner .blast {
+    float:inline-start;
+    width: 1280px;
+    height: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+
+}
